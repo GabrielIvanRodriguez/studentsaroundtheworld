@@ -1,0 +1,50 @@
+main {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-size: 25px;
+        padding: 15px 0 0px 15px;
+        color: rgb(100, 148, 237);
+        text-shadow: 0 3px 3px rgba(8, 8, 8, 0.712);
+    }
+
+    h2 {
+        font-size: 20px;
+        padding: 0 0px 0px 20px;
+        color: rgb(38, 96, 204);
+    }
+
+    button {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    p {
+        color: #0075ff;
+    }
+}
+
+.searchSt {
+    background: linear-gradient(rgba(255, 255, 255, 0.541), rgb(255, 255, 255)),
+        url(../../assets/img/meetstudents.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    left: 0px;
+    width: 100%;
+    height: 380px;
+    padding: 20px;
+}
+
+.searchCit {
+    background: linear-gradient(rgba(255, 255, 255, 0.541), rgb(255, 255, 255)),
+        url(../../assets/img/meetcitizen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 0px;
+    width: 100%;
+    height: 380px;
+    padding: 20px;
+}

@@ -14,11 +14,6 @@ main {
   height: min-content;
   font-family: 'Roboto', sans-serif;
   background-color: white; }
-  main h2 {
-    font-size: 25px;
-    padding: 15px 0 0px 15px;
-    color: #6494ed;
-    text-shadow: 0 3px 3px rgba(8, 8, 8, 0.712); }
   main h3 {
     font-size: 20px;
     padding: 0 0px 0px 20px;
@@ -36,6 +31,12 @@ main {
   background-position-x: left;
   width: 100%;
   height: 400px; }
+
+.unicOne {
+  font-size: 25px;
+  padding: 15px 0 0px 15px;
+  color: #6494ed;
+  text-shadow: 0 3px 3px rgba(8, 8, 8, 0.712); }
 
 .find {
   padding: 20px;
@@ -59,6 +60,44 @@ main {
 
 .findst {
   color: #6494ed; }
+
+main {
+  display: flex;
+  flex-direction: column; }
+  main h1 {
+    font-size: 25px;
+    padding: 15px 0 0px 15px;
+    color: #6494ed;
+    text-shadow: 0 3px 3px rgba(8, 8, 8, 0.712); }
+  main h2 {
+    font-size: 20px;
+    padding: 0 0px 0px 20px;
+    color: #2660cc; }
+  main button {
+    margin-left: 40px;
+    margin-top: 20px; }
+  main p {
+    color: #0075ff; }
+
+.searchSt {
+  background: linear-gradient(rgba(255, 255, 255, 0.541), white), url(../../assets/img/meetstudents.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  left: 0px;
+  width: 100%;
+  height: 380px;
+  padding: 20px; }
+
+.searchCit {
+  background: linear-gradient(rgba(255, 255, 255, 0.541), white), url(../../assets/img/meetcitizen.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 0px;
+  width: 100%;
+  height: 380px;
+  padding: 20px; }
 
 header {
   width: 100%;
@@ -126,6 +165,8 @@ header {
   display: none; }
   .list li {
     list-style: none; }
+    .list li:last-child {
+      padding-bottom: 81px; }
   .list a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif; }
@@ -134,7 +175,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  bottom: 0; }
 
 footer {
   position: relative;
