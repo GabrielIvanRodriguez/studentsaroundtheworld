@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Sign up for free!" />
+    <meta name="description" content="Explore your destination country!" />
     <meta name="author" content="Rodríguez Gabriel Iván" />
-    <title>Sign up | SATW</title>
+    <title>Explore | SATW</title>
     <link rel="shortcut icon" href="../assets/logos/favicon.jpg" type="image/x-icon" />
-    <meta property="og:title" content="Sign up" />
-    <meta property="og:description" content="Join us!" />
+    <meta property="og:title" content="Explore" />
+    <meta property="og:description" content="Explore your destination country" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="./assets/logos/favicon.jpg" />
     <link rel="stylesheet" href="../css/style.css" />
@@ -32,60 +31,48 @@
 
             <ul class="list">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="#">Sign up</a></li>
+                <li><a href="./signup.html">Sign up</a></li>
                 <li><a href="./howitworks.html">How it works</a></li>
-                <li><a href="./explore.html">Explore</a></li>
+                <li><a href="#">Explore</a></li>
                 <li><a href="./aboutus.html">About us</a></li>
                 <li><a href="./contactus.html">Contact us</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="signUp">
-        <h1>Sign up</h1>
-        <div class="contain">
-            <div class="col">
-                <a href="https://www.facebook.com/" class="fb btn" target="_blank">
-                  <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-                </a>
-                <a href="https://google.com" class="google btn" target="_blank">
-                  <i class="fa fa-google fa-fw"></i> Login with Google+
-                </a>
-              </div>     
-
-            <section class="registerBox">
+        <div class="search">
+            <h1>Explore your destination country!</h1>
+            <div class="contain">
+            <section class="startData">
                 <form action="">
                     <fieldset>
-                        <legend>OR</legend>
 
                         <div>
-                            <span>Name and surname</span>
-                            <input type="text" placeholder="Write your name"/>
+                            <label for="country">Destination country</label>
+                            <select id="country" class="selectBox">
+                                <option value="Argentina">Argentina</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="France">France</option>
+                                <option value="China">China</option>
+                                <option value="Colombia">Colombia</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="look">Looking for</label>
+                            <select id="look" class="selectBox">
+                                <option value="student">Students</option>
+                                <option value="citizen">Citizens</option>
+                                <option value="events">Events</option>
+                            </select>
                         </div>
 
                         <div>
-                            <span>Email address </span>
-                            <input type="email" placeholder="Write your e-mail"/>
-                        </div>
-
-                        <div>
-                            <span>Password: </span>
-                            <input type="password" placeholder="Choose a password"/>
-                        </div>
-                        <div>
-                            <input type="submit" value="Sign up">
+                            <input type="submit" value="Search">
                         </div>
                     </fieldset>
                 </form>
             </section>
-
-            <div class="alreadyLog">
-                <span>Already have an account?</span>
-                <form action="../pages/logIn.html">
-                    <input type="submit" value="Login">
-                </form>
             </div>
-        </div>
         </div>
     </main>
     <footer>

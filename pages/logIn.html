@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Sign up for free!" />
+    <meta name="description" content="Log in" />
     <meta name="author" content="Rodríguez Gabriel Iván" />
-    <title>Sign up | SATW</title>
+    <title>Log in | SATW</title>
     <link rel="shortcut icon" href="../assets/logos/favicon.jpg" type="image/x-icon" />
-    <meta property="og:title" content="Sign up" />
-    <meta property="og:description" content="Join us!" />
+    <meta property="og:title" content="Log in" />
+    <meta property="og:description" content="Start using SATW" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="./assets/logos/favicon.jpg" />
     <link rel="stylesheet" href="../css/style.css" />
@@ -32,7 +32,7 @@
 
             <ul class="list">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="#">Sign up</a></li>
+                <li><a href="./signup.html">Sign up</a></li>
                 <li><a href="./howitworks.html">How it works</a></li>
                 <li><a href="./explore.html">Explore</a></li>
                 <li><a href="./aboutus.html">About us</a></li>
@@ -41,9 +41,9 @@
         </nav>
     </header>
     <main>
-        <div class="signUp">
-        <h1>Sign up</h1>
-        <div class="contain">
+        <div class="logIn">
+        <h1>Log in</h1>
+        <div class="containLog">
             <div class="col">
                 <a href="https://www.facebook.com/" class="fb btn" target="_blank">
                   <i class="fa fa-facebook fa-fw"></i> Login with Facebook
@@ -51,38 +51,33 @@
                 <a href="https://google.com" class="google btn" target="_blank">
                   <i class="fa fa-google fa-fw"></i> Login with Google+
                 </a>
-              </div>     
+              </div>         
 
-            <section class="registerBox">
+            <section class="logData">
                 <form action="">
                     <fieldset>
                         <legend>OR</legend>
 
                         <div>
-                            <span>Name and surname</span>
-                            <input type="text" placeholder="Write your name"/>
-                        </div>
-
-                        <div>
-                            <span>Email address </span>
+                            <span>Email</span>
                             <input type="email" placeholder="Write your e-mail"/>
                         </div>
 
                         <div>
                             <span>Password: </span>
-                            <input type="password" placeholder="Choose a password"/>
+                            <input type="password" placeholder="Write your password"/>
                         </div>
                         <div>
-                            <input type="submit" value="Sign up">
+                            <input type="submit" value="Log in">
                         </div>
                     </fieldset>
                 </form>
             </section>
 
-            <div class="alreadyLog">
-                <span>Already have an account?</span>
-                <form action="../pages/logIn.html">
-                    <input type="submit" value="Login">
+            <div class="notLog">
+                <span>Or create an account</span>
+                <form action="../pages/signup.html">
+                    <input type="submit" value="Sign Up">
                 </form>
             </div>
         </div>

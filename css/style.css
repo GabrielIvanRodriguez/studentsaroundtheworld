@@ -14,6 +14,10 @@ main {
   height: min-content;
   font-family: 'Roboto', sans-serif;
   background-color: white; }
+  main h2 {
+    font-size: 20px;
+    padding: 0 0px 0px 20px;
+    color: #2660cc; }
   main h3 {
     font-size: 20px;
     padding: 0 0px 0px 20px;
@@ -31,12 +35,6 @@ main {
   background-position-x: left;
   width: 100%;
   height: 400px; }
-
-.unicOne {
-  font-size: 25px;
-  padding: 15px 0 0px 15px;
-  color: #6494ed;
-  text-shadow: 0 3px 3px rgba(8, 8, 8, 0.712); }
 
 .find {
   padding: 20px;
@@ -60,6 +58,69 @@ main {
 
 .findst {
   color: #6494ed; }
+
+.aboutUs {
+  background-image: url(../assets/img/aboutus.png);
+  width: 100%;
+  height: 600px;
+  padding: 20px; }
+  .aboutUs p {
+    color: cornflowerblue; }
+
+.contact {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../assets/img/signup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  width: 100%;
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contact fieldset {
+    border: 0; }
+  .contact legend {
+    text-align: center;
+    color: #0075FF; }
+  .contact div {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #0075FF; }
+  .contact button {
+    margin: 10px 0;
+    padding: 2px; }
+
+.formCo input {
+  margin: 2px;
+  border: 0;
+  border-radius: 2px;
+  border-bottom: 1px solid #41414127;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212); }
+  .formCo input::placeholder {
+    color: rgba(0, 89, 255, 0.452); }
+  .formCo input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer; }
+
+.area {
+  display: flex;
+  flex-direction: column; }
+  .area textarea {
+    border: 0;
+    border-radius: 2px;
+    border-bottom: 1px solid #41414127;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212); }
+    .area textarea::placeholder {
+      margin: 2px;
+      padding: 12px;
+      color: rgba(0, 89, 255, 0.452);
+      opacity: 0.85;
+      display: inline-block;
+      font-size: 17px;
+      line-height: 20px; }
 
 main {
   display: flex;
@@ -99,6 +160,256 @@ main {
   height: 380px;
   padding: 20px; }
 
+.search {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../assets/img/signup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  width: 100%;
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .search fieldset {
+    border: 0; }
+  .search legend {
+    text-align: center;
+    color: #0075FF; }
+  .search div {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #0075FF; }
+  .search button {
+    margin: 10px 0;
+    padding: 2px; }
+
+.contain {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0px solid #41414127;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212); }
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  /* remove underline from anchors */ }
+
+.startData input {
+  margin: 2px;
+  border: 0;
+  border-radius: 2px;
+  border-bottom: 1px solid #41414127;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212); }
+  .startData input::placeholder {
+    color: rgba(0, 89, 255, 0.452); }
+  .startData input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer; }
+  .startData input select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px; }
+
+.selectBox {
+  font-size: 16px;
+  margin: 20px auto;
+  border: 1px solid #d9d9d9;
+  height: 50px;
+  width: 80%;
+  overflow: hidden;
+  position: relative; }
+  .selectBox::after {
+    content: "\025be";
+    display: table-cell;
+    text-align: center;
+    padding-top: 7px;
+    width: 30px;
+    height: 30px;
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    pointer-events: none; }
+
+.signUp {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../assets/img/signup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  width: 100%;
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .signUp fieldset {
+    border: 0; }
+  .signUp legend {
+    text-align: center;
+    color: #0075FF; }
+  .signUp div {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #0075FF; }
+  .signUp button {
+    margin: 10px 0;
+    padding: 2px; }
+
+.contain {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0px solid #41414127;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212); }
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  /* remove underline from anchors */ }
+
+.fb {
+  background-color: #3B5998;
+  color: white; }
+
+.google {
+  background-color: #dd4b39;
+  color: white; }
+
+.registerBox input {
+  margin: 2px;
+  border: 0;
+  border-radius: 2px;
+  border-bottom: 1px solid #41414127;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212); }
+  .registerBox input::placeholder {
+    color: rgba(0, 89, 255, 0.452); }
+  .registerBox input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer; }
+
+.alreadyLog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .alreadyLog input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+    padding: 10px 25px; }
+
+.logIn {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../assets/img/signup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  width: 100%;
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .logIn fieldset {
+    border: 0; }
+  .logIn legend {
+    text-align: center;
+    color: #0075FF; }
+  .logIn div {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #0075FF; }
+  .logIn button {
+    margin: 10px 0;
+    padding: 2px; }
+
+.containLog {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0px solid #41414127;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212); }
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  /* remove underline from anchors */ }
+
+.fb {
+  background-color: #3B5998;
+  color: white; }
+
+.google {
+  background-color: #dd4b39;
+  color: white; }
+
+.logData input {
+  margin: 2px;
+  border: 0;
+  border-radius: 2px;
+  border-bottom: 1px solid #41414127;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212); }
+  .logData input::placeholder {
+    color: rgba(0, 89, 255, 0.452); }
+  .logData input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer; }
+
+.notLog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .notLog input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+    padding: 10px 25px; }
+
 header {
   width: 100%;
   height: 80px;
@@ -119,7 +430,7 @@ header {
   .logo img {
     width: 60px;
     height: 60px; }
-  .logo h1 {
+  .logo h2 {
     font-size: 20px;
     font-family: 'Norican', cursive;
     color: cornflowerblue;

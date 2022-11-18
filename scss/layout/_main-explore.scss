@@ -1,4 +1,4 @@
-.signUp{
+.search{
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../../assets/img/signup.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     fieldset{
         border:0;
     }
@@ -51,15 +52,7 @@ input,
   line-height: 20px;
   text-decoration: none; /* remove underline from anchors */
 }
-.fb {
-    background-color: #3B5998;
-    color: white;
-  }
-.google {
-    background-color: #dd4b39;
-    color: white;
-  }
-.registerBox{
+.startData{
     input{
         margin:2px;
         border:0;
@@ -73,19 +66,39 @@ input,
             background-color: #04AA6D;
             color: white;
             cursor: pointer;
-          }
+        }
+        select {
+            background: transparent;
+            border: none;
+            font-size: 14px;
+            height: 30px;
+            padding: 5px;
+            width: 250px;
+         }
     }
 
 }
-.alreadyLog{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    input[type=submit] {
-        background-color: #04AA6D;
-        color: white;
-        cursor: pointer;
-        padding:10px 25px;
-      }
+.selectBox{
+    font-size: 16px;
+    margin:20px auto;        
+    border:1px solid #d9d9d9;
+    height:50px;
+    width: 80%;
+    overflow: hidden;
+    position:relative;
+
+
+    &::after{
+    content:"\025be";
+     display:table-cell;
+     text-align:center;
+     padding-top:7px;
+     width:30px;
+     height:30px;
+     background-color:#d9d9d9;
+     position:absolute;
+     top:0;
+     right:0px;
+     pointer-events: none;     
+    }
 }

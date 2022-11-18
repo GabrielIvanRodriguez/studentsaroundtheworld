@@ -1,0 +1,67 @@
+.contact{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../../assets/img/signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    width: 100%;
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    fieldset{
+        border:0;
+    }
+    legend{
+        text-align: center;
+        color: #0075FF;
+
+    }
+    div{
+
+        margin:10px;
+        padding:5px;
+        text-align: center;
+        color: #0075FF; 
+    }
+    button{
+        margin:10px 0;
+        padding: 2px;
+    }
+}
+.formCo{
+    input{
+        margin:2px;
+        border:0;
+        border-radius: 2px;
+        border-bottom: 1px solid #41414127;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+        &::placeholder{
+            color:rgba(0, 89, 255, 0.452)
+        }
+        &[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            cursor: pointer;
+          }
+        }
+    }
+.area{
+    display: flex;
+    flex-direction: column;
+    textarea{
+        border:0;
+        border-radius: 2px;
+        border-bottom: 1px solid #41414127;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+        &::placeholder{
+            margin:2px;
+            padding: 12px;
+            color:rgba(0, 89, 255, 0.452);
+            opacity: 0.85;
+            display: inline-block;
+            font-size: 17px;
+            line-height: 20px;
+        }
+    }
+}
