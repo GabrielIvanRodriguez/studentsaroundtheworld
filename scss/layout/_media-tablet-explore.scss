@@ -1,0 +1,16 @@
+@media (min-width:768px){
+    .search{
+        @include dimention(100%,1100px,none,none);
+    }
+   .startData{
+    input[type=submit]{
+        font-size: 30px;
+    }
+    select{
+        font-size: 25px;
+    }
+    label{
+        font-size: 25px;
+    }
+   }
+}

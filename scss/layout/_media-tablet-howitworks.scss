@@ -1,0 +1,9 @@
+@media (min-width:768px){
+    .searchSt{
+        @include dimention(100%,500px,20px,none);    
+    }
+    .searchCit{
+        @include dimention(100%,500px,20px,none);   
+    }
+   
+}

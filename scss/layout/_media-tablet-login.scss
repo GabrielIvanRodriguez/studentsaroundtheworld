@@ -1,0 +1,5 @@
+@media (min-width:768px){
+   .logIn{
+    @include dimention(100%,1100px,none,none);
+   }
+}

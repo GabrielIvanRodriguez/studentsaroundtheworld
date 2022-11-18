@@ -1,0 +1,52 @@
+@media (min-width:768px){
+    main{
+        h1{
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 40px;
+        }
+        h3{
+            font-size: 35px;
+        }
+        p{
+            font-size: 24px;
+        }
+    }
+    .banner{
+        @include dimention (100%,700px,none,none);
+
+    }
+    .find{
+        @include dimention(100%,300px,none,none);
+        margin-bottom: 50px;
+        @include grid(3,2,center,center);
+        grid-template-areas: 
+        "wh wh wh"
+        "student citizen event"
+        ;
+        h4{
+            grid-area:wh;
+            text-align: center;
+            font-size: 34px;
+        }
+        form{
+            @include flex(column,center,center);
+        }
+        h6{
+            text-align: center;
+            font-size: 25px;
+            color:cornflowerblue;
+        }
+        .btn1{
+            grid-area:student;
+
+        }
+        .btn2{
+            grid-area:citizen;
+        }
+        .btn3{
+            grid-area:event;
+        }
+    }
+}

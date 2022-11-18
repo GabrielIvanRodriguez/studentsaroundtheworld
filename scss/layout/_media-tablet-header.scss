@@ -1,0 +1,20 @@
+@media (min-width:768px){
+    header{
+        @include dimention(100%,100px,none,none);
+        @include flex(row,flex-end,center);
+    }
+    .logo{
+        @include dimention(100%,100px,none,none);
+    
+        img{
+            @include dimention(80px,80px,none,none);
+        }
+        h2{
+            font-size: 40px;
+        }
+    }
+    .navBar{
+        @include dimention(80px,100px,none,none);
+        justify-self: flex-end;
+    }
+}

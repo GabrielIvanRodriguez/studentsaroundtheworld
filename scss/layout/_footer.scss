@@ -2,7 +2,7 @@ footer{
     position: relative;
     bottom: 0;
     font-family: 'Roboto', sans-serif;
-    @include dimention(100%,min-content,10px,0);
+    @include dimention(100%,max-content,10px,0);
     background-color: white;
     @include grid(2,1,space-evenly,none);
     grid-template-areas: 

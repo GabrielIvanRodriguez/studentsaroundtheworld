@@ -1,0 +1,5 @@
+@media (min-width:768px){
+   .aboutUs{
+    @include dimention(100%,1100px,20px,none);
+   }
+}
