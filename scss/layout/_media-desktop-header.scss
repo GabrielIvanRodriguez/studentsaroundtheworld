@@ -1,0 +1,35 @@
+@media (min-width:768px){
+    @media (min-width:992px){
+        header{
+            @include dimention(100%,120px,none,none);
+            @include flex(row,space-evenly,center);
+        }
+        .logo{
+            @include dimention(600px,120px,none,none);   
+            img{
+                @include dimention(100px,100px,none,none);
+            }
+            h2{
+                font-size: 30px;
+            }
+        }
+        .navBar{
+            @include dimention(100%,120px,none,none);
+        }
+        .menuHamb{
+            display: none;
+        }
+        .list{
+            position: static;
+            @include dimention(100%,120px,none,none);
+            @include flex(row,space-evenly,center);
+            li{
+                list-style: none;
+                &:last-child{
+                    padding-bottom: 0;
+                }
+            }
+        }
+    
+    }
+}

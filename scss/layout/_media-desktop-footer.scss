@@ -1,0 +1,15 @@
+@media (min-width:992px){
+    footer{
+        @include grid(4,1,none,none);
+        grid-template-areas: 
+        "support none none socialmedia"
+        ;
+        .support{
+            grid-area: support;
+        }
+        .socialmedia{
+            grid-area: socialmedia;
+        }
+    }
+
+}
