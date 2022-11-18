@@ -2,17 +2,12 @@ footer{
     position: relative;
     bottom: 0;
     font-family: 'Roboto', sans-serif;
-    width:100%;
-    height: min-content;
+    @include dimention(100%,min-content,10px,0);
     background-color: white;
-    display: grid;
-    grid-template-columns:repeat(2,1fr) ;
-    grid-template-rows: 1fr;
+    @include grid(2,1,space-evenly,none);
     grid-template-areas: 
     "support socialmedia"
     ;
-    justify-content: space-evenly;
-    padding: 10px;
     h2{
         font-size: 14px;
         color: cornflowerblue;

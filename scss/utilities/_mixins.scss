@@ -1,0 +1,19 @@
+@mixin flex($dir,$just,$ali){
+    display:flex;
+    flex-direction: $dir;
+    justify-content: $just;
+    align-items: $ali;
+}
+@mixin dimention($anch,$alt,$padd,$marg){
+    width: $anch;
+    height: $alt;
+    padding: $padd;
+    margin: $marg;
+}
+@mixin grid($col,$row,$just,$ali){
+    display: grid;
+    grid-template-columns: repeat($col,1fr);
+    grid-template-rows: repeat($row,1fr);
+    justify-content: $just;
+    align-items: $ali;
+}
