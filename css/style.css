@@ -12,6 +12,8 @@ body {
 main {
   width: 100%;
   height: min-content;
+  padding: none;
+  margin: none;
   font-family: 'Roboto', sans-serif;
   background-color: white; }
   main h2 {
@@ -34,14 +36,18 @@ main {
   background-repeat: no-repeat;
   background-position-x: left;
   width: 100%;
-  height: 400px; }
+  height: 400px;
+  padding: none;
+  margin: none; }
 
 .find {
-  padding: 20px;
   width: 100%;
   height: min-content;
+  padding: 20px;
+  margin: none;
   display: flex;
   flex-direction: column;
+  justify-content: none;
   align-items: center;
   border-top: 0px solid #41414127;
   box-shadow: 5px -5px 5px rgba(0, 0, 0, 0.212); }
@@ -63,7 +69,8 @@ main {
   background-image: url(../assets/img/aboutus.png);
   width: 100%;
   height: 600px;
-  padding: 20px; }
+  padding: 20px;
+  margin: none; }
   .aboutUs p {
     color: cornflowerblue; }
 
@@ -74,6 +81,8 @@ main {
   background-position-x: left;
   width: 100%;
   height: 860px;
+  padding: none;
+  margin: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,7 +116,9 @@ main {
 
 .area {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: none;
+  align-items: none; }
   .area textarea {
     border: 0;
     border-radius: 2px;
@@ -124,7 +135,9 @@ main {
 
 main {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: none;
+  align-items: none; }
   main h1 {
     font-size: 25px;
     padding: 15px 0 0px 15px;
@@ -148,7 +161,8 @@ main {
   left: 0px;
   width: 100%;
   height: 380px;
-  padding: 20px; }
+  padding: 20px;
+  margin: none; }
 
 .searchCit {
   background: linear-gradient(rgba(255, 255, 255, 0.541), white), url(../../assets/img/meetcitizen.jpg);
@@ -158,7 +172,8 @@ main {
   left: 0px;
   width: 100%;
   height: 380px;
-  padding: 20px; }
+  padding: 20px;
+  margin: none; }
 
 .search {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../assets/img/signup.jpg);
@@ -167,6 +182,8 @@ main {
   background-position-x: left;
   width: 100%;
   height: 860px;
+  padding: none;
+  margin: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -257,6 +274,8 @@ input,
   background-position-x: left;
   width: 100%;
   height: 860px;
+  padding: none;
+  margin: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -322,8 +341,8 @@ input,
 .alreadyLog {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
   .alreadyLog input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -337,6 +356,8 @@ input,
   background-position-x: left;
   width: 100%;
   height: 860px;
+  padding: none;
+  margin: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -402,8 +423,8 @@ input,
 .notLog {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
   .notLog input[type=submit] {
     background-color: #04AA6D;
     color: white;

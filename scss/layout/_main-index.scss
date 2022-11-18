@@ -1,6 +1,5 @@
 main{
-    width: 100%;
-    height: min-content;
+    @include dimention(100%,min-content,none,none);
     font-family: 'Roboto', sans-serif;
     background-color: white;
     h2 {
@@ -25,17 +24,12 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: left;
-    width: 100%;
-    height: 400px;
+    @include dimention(100%,400px,none,none);
 
 }
 .find{
-    padding: 20px;
-    width: 100%;
-    height: min-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include dimention(100%,min-content,20px,none);
+    @include flex(column,none,center);
     border-top: 0px solid #41414127;
     box-shadow: 5px -5px 5px rgba(0, 0, 0, 0.212);
     h4{
